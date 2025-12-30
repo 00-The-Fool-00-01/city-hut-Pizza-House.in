@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich - Pizza House</title>
+    <link rel="stylesheet" href="../app.css/header-footer.css">
+    <link rel="stylesheet" href="../app.css/index.css">
+
+    <link rel="stylesheet" href="../app.css/contect.css">
+    <link rel="stylesheet" href="../app.css/menu.css">
+</head>
+
+<body>
+    <!--* ------------------- this page heading  -->
+    <header>
+        <section class="header-section">
+
+            <div class="logo-img">
+         <a href="#"><img src="../logo-img/new-logo-1.png" alt=""></a>
+            </div>
+            <nav class="nav-baar desktop-nav">
+                <li><a href="../index.html" class="active">home</a></li>
+                <li><a href="../menu.html">menu</a></li>
+                <li><a href="../about.html">about</a></li>
+                <li><a href="../outlate.html">outlate</a></li>
+                <li><a href="../contact.html">contact</a></li>
+            </nav>
+            <nav class="nav-baar mobile-menu">
+                <div class="logo-img">
+                    <img src="../logo-img/logo-new.png" alt="">
+                    <div class="close-btn">X</div>
+                </div>
+                <li><a href="../index.html" class="active">home</a></li>
+                <li><a href="../menu.html">menu</a></li>
+                <li><a href="../about.html">about</a></li>
+                <li><a href="../outlate.html">outlate</a></li>
+                <li><a href="../contact.html">contact</a></li>
+            </nav>
+            <div class="menu-bar"><img src="../logo-img/Three horizontally a.png" id="three-line" alt=""></div>
+        </section>
+    </header>
+
+    <main>
+
+
+
+
+
+
+        <!-- SANDWICH MENU PAGE -->
+        <section class="menu-section" id="menuPage">
+            <h1 class="menu-grid-title">Sandwiches</h1>
+            <div class="grid" id="cardsContainer">
+                <!-- Cards injected by JS -->
+            </div>
+        </section>
+
+        <!-- SANDWICH DETAIL PAGE -->
+        <section id="detailPage" style="display:none;">
+            <div class="row" style="justify-content:space-between;">
+                <div class="row">
+                    <button class="backBtn" onclick="goBack()">← Back</button>
+                    <div style="color:#999;font-size:14px" id="crumb">Sandwiches / </div>
+                </div>
+            </div>
+
+            <div class="detail-wrap">
+                <div class="detail-main">
+                    <div class="slider" id="sliderRoot">
+                        <div class="slides" id="slides">
+                            <!-- slides injected -->
+                        </div>
+                        <div class="controls">
+                            <button class="btn" id="prevBtn">‹</button>
+                            <button class="btn" id="nextBtn">›</button>
+                        </div>
+                    </div>
+                    <div class="dots" id="dotsWrap"></div>
+
+                    <h2 id="detailTitle"
+                        style="margin-top:20px;margin-bottom:8px;color:#333;font-size:28px;font-weight:700"></h2>
+                </div>
+
+                <aside class="detail-side">
+                    <h3 style="margin-top:0;color:#333" id="sideTitle"></h3>
+                    <div class="price" id="sidePrice"></div>
+                    <p id="sideText" style="color:#666;margin-top:12px"></p>
+                </aside>
+                <div id="btn-contect-footer"> <a href="contact.html">Contect</a></div>
+            </div>
+        </section>
+    </main>
+ <footer class="main-footer">
+
+
+
+            <h2 class="thank-you-message" id="t12">Reach Us</h2>
+        </section>
+        <div class="container footer-grid">
+
+            <div class="footer-group social-links">
+                <h3> Our Socialmedia</h3>
+                <a href="https://www.instagram.com/cityhut_pizza?igsh=YTdqa25qemQ4OGtu" aria-label="Instagram" id="a1"><i class="fab fa-instagram"><img src="../logo-img/insta.webp" alt=""></i>
+                    instagram</a>
+                <a href="#" aria-label="WhatsApp" id="b2"><i class="fab fa-whatsapp"><img src="../logo-img/what'sapp.webp" alt=""></i>
+                +91 8817287066</a>
+
+                    <a href="https://maps.app.goo.gl/doXFLWHhz3z89yaU6" id="c3"><i class="fas fa-map-marker-alt"><img src="../logo-img/location.webp" alt=""></i> Location</a>
+                    <a href="" id="d4"><i class="fas fa-star"><img src="../logo-img/email.webp" alt=""></i> Email-city-hut-pizza-house-143@gmail.com</a>
+                <a href=""id="e5"><i class="fas fa-star"><img src="../logo-img/call.webp" alt=""></i> +91 8817287066</a>
+
+            </div>
+
+             <div class="footer-group footer-nav">
+                <ul>
+                    <li>
+                        <h3>Quick links</h3>
+                    </li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/menu.html">Menu</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/outlate.html">Outlate</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-group location-links">
+                <h3>About Developer</h3>
+                <a href="#" id="f6"><i class="fas fa-map-marker-alt"><img src="../logo-img/x.webp" alt=""></i> Twitwer/X</a>
+                <a href="#" id="g7"><i class="fas fa-star"><img src="../logo-img/linkedin.webp" alt=""></i> linkedin</a>
+                <a href="#" id="h8"><i class="fas fa-star"><img src="../logo-img/email.webp" alt=""></i> Email- aayushpandey284@gmail.com</a>
+                <a href="https://www.instagram.com/aayush_pandey12345?igsh=bnB0azR5aTE5emM1&utm_source=ig_contact_invite" id="i9"><i class="fas fa-star"><img src="../logo-img/insta.webp" alt=""></i> Instagram</a>
+            </div>
+
+
+        </div>
+        <div class="copyright-bar">
+            <p>&copy; 2025 city-hut Pizza House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../menuToggle.js"></script>
+    <script>
+        /*
+            Sandwich page script
+            - Data source: `const sandwichData` (object below).
+            - Renders cards into `#cardsContainer`.
+            - Click flow: `openCard(id)` hides `#menuPage`, shows `#detailPage`, and calls `populateDetail(id)`.
+            - Detail content: images -> `#slides`; title -> `#detailTitle`; aside: `#sideTitle`, `#sidePrice`, `#sideText`.
+            - Back button: calls `goBack()` to toggle views.
+        */
+        const sandwichData = {
+            1: { title: "Plain cheese sandwich", desc: "A simple, comforting classic featuring gooey melted cheese between slices of perfectly toasted bread.", images: ["../menu-img/sandwich/cheesesand1.jpg", "../menu-img/sandwich/cheesesand2.jpg", "../menu-img/sandwich/cheesesand3.jpg"], price: "₹80", link: "" },
+            2: { title: "Corn Cheese Sandwich", desc: "Sweet golden corn kernels meet melted cheese for a delightful burst of flavor in every bite.", images: ["../menu-img/sandwich/cheesecorn-sand.jpg", "../menu-img/sandwich/cheesecorn-sand2.jpg", "../menu-img/sandwich/cheesecorn-sand3.jpg"], price: "₹90", link: "" },
+            3: { title: "Bombay Masala Sandwich", desc: " A street-food favorite packed with spiced potatoes and zesty chutney for a true taste of Mumbai.", images: ["../menu-img/sandwich/bombay-sand.jpg", "../menu-img/sandwich/bombay-sand2.jpg", "../menu-img/sandwich/bombay-sand3.jpg"], price: "₹90", link: "" },
+            4: { title: "Veg Cheese Sandwich", desc: "Fresh, crunchy vegetables layered with creamy cheese to create a wholesome and satisfying meal.", images: ["../menu-img/sandwich/vegcheese-sand.jpg", "../menu-img/sandwich/vegcheese-sand2.jpg", "../menu-img/sandwich/vegcheese-sand3.jpg"], price: "₹90", link: "" },
+            5: { title: "Maxican Sanwich", desc: "A bold, fiesta-inspired sandwich likely featuring spicy beans, peppers, and zesty seasonings.", images: ["../menu-img/sandwich/maxican-sand1.jpg", "../menu-img/sandwich/maxican-sand2.jpg"], price: "₹90", link: "" },
+            6: { title: "Paneer Cheese Sandwich", desc: "Soft, marinated paneer cubes paired with cheese for a rich and protein-packed vegetarian delight.", images: ["../menu-img/sandwich/paneercheese-sand.jpg", "../menu-img/sandwich/paneercheese-sand2.jpg", "../menu-img/sandwich/paneercheese-sand3.jpg"], price: "₹140", link: "" },
+            7: { title: "Full Choco Grill", desc: "A dessert lover's dream—warm, grilled bread filled with melted chocolate.", images: ["../menu-img/sandwich/choco-sand.jpg", "../menu-img/sandwich/choco-sand2.jpg", "../menu-img/sandwich/choco-sand3.jpg"], price: "₹140", link: "" },
+            8: { title: "Grill Sandwich", desc: " The ultimate multi-layered experience, stacked high with fresh fillings and grilled to perfection.", images: ["../menu-img/sandwich/grill-sand.jpg", "../menu-img/sandwich/grill-sand2.jpg", "../menu-img/sandwich/grill-sand3.jpg"], price: "₹180", link: "" },
+            9: { title: "Choco lava", desc: "A decadent dessert featuring a warm cake with a rich, molten chocolate center.", images: ["../menu-img/sandwich/lava.jpg", "../menu-img/sandwich/lava2.jpg", "../menu-img/sandwich/lava3.jpg"], price: "₹50", link: "" },
+            10: { title: "Choco Volcano", desc: "An even more explosive chocolate experience, perfect for sharing (or not!).", images: ["../menu-img/sandwich/volcano.jpg", "../menu-img/sandwich/volcano2.jpg", "../menu-img/sandwich/valcano3.jpg"], price: "₹120", link: "" },
+            11: { title: "Stuffed Garlic Bread", desc: "The perfect aromatic side, toasted with butter and infused with fragrant garlic.", images: ["../menu-img/sandwich/garlicbread.jpg", "../menu-img/sandwich/garlicbread2.jpg"], price: "₹140", link: "" },
+
+            12: { title: "Veg Cheese ball", desc: " Likely a snack featuring a crispy exterior with a surprise center of warm, melted cheese.", images: ["../menu-img/sandwich/cheeseboll.jpg", "../menu-img/sandwich/cheeseboll2.jpg"], price: "₹100", link: "" },
+            13: { title: "Paneer Cheese ball", desc: "Bite-sized delights filled with a mix of savory vegetables and gooey cheese.", images: ["../menu-img/sandwich/paneerboll.jpg", "../menu-img/sandwich/paneerboll2.jpg"], price: "₹140", link: "" }
+
+
+        };
+
+        const itemdata = sandwichData;
+
+        const cardsContainer = document.getElementById('cardsContainer');
+        function renderCards() {
+            cardsContainer.innerHTML = '';
+            Object.keys(sandwichData).forEach(key => {
+                const item = sandwichData[key];
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.style.cursor = 'pointer';
+                card.onclick = () => openCard(key);
+
+                const thumbHTML = item.images ? ("<img src=\"" + item.images[0] + "\" alt=\"" + item.title + "\">") : ("<div style=\"display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:#f5f5f5;color:#666;font-size:14px;font-weight:600;\">" + (item.text ? item.text[0] : '') + "</div>");
+                card.innerHTML = "<div class=\"thumb\">" + thumbHTML + "</div><h3>" + item.title + "</h3><p>" + item.desc + "</p><div class=\"price\">" + item.price + "</div>";
+
+                cardsContainer.appendChild(card);
+            })
+        }
+        renderCards();
+
+        let currentId = null, currentIndex = 0, slideTimer = null;
+        const slidesEl = document.getElementById('slides'), dotsWrap = document.getElementById('dotsWrap'), prevBtn = document.getElementById('prevBtn'), nextBtn = document.getElementById('nextBtn');
+
+        function openCard(id) {
+            document.getElementById("menuPage").style.display = "none";
+            document.getElementById("detailPage").style.display = "block";
+            currentId = id;
+            currentIndex = 0;
+            populateDetail(id);
+            startAutoPlay();
+        }
+
+        function populateDetail(id) {
+            const item = sandwichData[id];
+            if (!item) return;
+            document.getElementById('crumb').innerText = 'Sandwiches / ' + item.title;
+            document.getElementById('detailTitle').innerText = item.title;
+            document.getElementById('sidePrice').innerText = item.price || '';
+            document.getElementById('sideTitle').innerText = item.title;
+            document.getElementById('sideText').innerText = item.desc;
+            slidesEl.innerHTML = '';
+            dotsWrap.innerHTML = '';
+            const slideSource = item.images || item.text;
+            slideSource.forEach((src, i) => {
+                const s = document.createElement('div');
+                s.className = 'slide';
+                if (item.images) {
+                    s.innerHTML = "<img src=\"" + src + "\" alt=\"" + item.title + " image " + (i + 1) + "\">";
+                } else {
+                    s.innerHTML = "<div style=\"display:flex;align-items:center;justify-content:center;width:100%;height:320px;background:#f5f5f5;color:#666;font-size:18px;font-weight:600;\">" + src + "</div>";
+                }
+                slidesEl.appendChild(s);
+                const dot = document.createElement('div');
+                dot.className = 'dot' + (i === 0 ? ' active' : '');
+                dot.addEventListener('click', () => goToSlide(i));
+                dotsWrap.appendChild(dot)
+            });
+            updateSlidePosition();
+        }
+
+        function updateSlidePosition() {
+            slidesEl.style.transform = "translateX(-" + (currentIndex * 100) + "%)";
+            Array.from(dotsWrap.children).forEach((d, i) => d.classList.toggle('active', i === currentIndex))
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slidesEl.children.length) % slidesEl.children.length;
+            updateSlidePosition();
+            resetAutoPlay();
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slidesEl.children.length;
+            updateSlidePosition();
+            resetAutoPlay();
+        }
+
+        function goToSlide(i) {
+            currentIndex = i;
+            updateSlidePosition();
+            resetAutoPlay();
+        }
+
+        function startAutoPlay() {
+            clearInterval(slideTimer);
+            slideTimer = setInterval(() => nextSlide(), 3500)
+        }
+
+        function resetAutoPlay() {
+            clearInterval(slideTimer);
+            slideTimer = setTimeout(() => startAutoPlay(), 2800)
+        }
+
+        function stopAutoPlay() {
+            clearInterval(slideTimer)
+        }
+
+        prevBtn.addEventListener('click', prevSlide);
+        nextBtn.addEventListener('click', nextSlide);
+
+        let startX = 0, isDown = false;
+        const sliderRoot = document.getElementById('sliderRoot');
+        sliderRoot.addEventListener('pointerdown', e => {
+            isDown = true;
+            startX = e.clientX || (e.touches && e.touches[0].clientX);
+            stopAutoPlay()
+        });
+        window.addEventListener('pointerup', e => {
+            if (!isDown) return;
+            isDown = false;
+            const dx = (e.clientX || 0) - startX;
+            if (dx > 40) prevSlide();
+            else if (dx < -40) nextSlide();
+            startAutoPlay()
+        });
+
+        function goBack() {
+            document.getElementById("detailPage").style.display = "none";
+            document.getElementById("menuPage").style.display = "block";
+            stopAutoPlay();
+        } function addToCart() {
+            alert((sandwichData[currentId]?.title || 'Item') + " added to your order!")
+        }
+
+        window.addEventListener('resize', () => updateSlidePosition());
+    </script>
+</body>
+
+</html>
